@@ -39,12 +39,12 @@ output "z_map" {
 #Printing Index value from y_list
 
 output "y" {
-  value = var.y_list [ 2 ]
+  value = var.y_list[2]
 }
 
 
 #Printing X value from z_map
 
 output "z" {
-  value = var.z_map [ x ]
+  value = var.z_map["x"]
 }
