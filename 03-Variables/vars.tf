@@ -36,3 +36,15 @@ output "z_map" {
   value = var.z_map
 }
 
+#Printing Index value from y_list
+
+output "y" {
+  value = var.y_list [ 2 ]
+}
+
+
+#Printing X value from Z_map
+
+output "z" {
+  value = var.z_map [ x ]
+}
