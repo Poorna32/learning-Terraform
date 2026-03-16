@@ -22,3 +22,16 @@ variable "y_list" {
 output "y_list" {
   value = var.y_list
 }
+
+#4)Variable with Map
+variable "z_map" {
+  default = {
+    x = 10
+    y = 20
+    z = 30
+  }
+}
+
+output "z_map" {
+  value = var.z_map
+}
