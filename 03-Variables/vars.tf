@@ -35,3 +35,4 @@ variable "z_map" {
 output "z_map" {
   value = var.z_map
 }
+
