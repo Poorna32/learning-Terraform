@@ -43,7 +43,7 @@ output "y" {
 }
 
 
-#Printing X value from Z_map
+#Printing X value from z_map
 
 output "z" {
   value = var.z_map [ x ]
