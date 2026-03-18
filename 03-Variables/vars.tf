@@ -48,3 +48,12 @@ output "y" {
 output "z" {
   value = var.z_map["x"]
 }
+
+
+#Declaring Empty Variable
+#To acesss this variable we send data through a Files called TFvars
+variable "Environment" {}
+
+output "Environment" {
+  value = var.Environment
+}
