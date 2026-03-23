@@ -57,3 +57,8 @@ variable "Environment" {}
 output "Environment" {
   value = var.Environment
 }
+
+variable "common" {}
+output "common" {
+  value = var.common
+}
