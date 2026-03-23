@@ -1,0 +1,1 @@
+common = "E-commerce Application with Microservices Architecture"
