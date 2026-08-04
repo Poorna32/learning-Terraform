@@ -7,3 +7,11 @@ resource "aws_instance" "test" {
     Name = "frontend"
   }
 }
+
+resource "aws_route53_record" "test" {
+  zone_id = "Z02595892ZU4VXX7PZ67V"
+  name    = "www.poorna.com"
+  type    = "A"
+  ttl     = 300
+  records = [ 18.212.235.11 ]
+}
