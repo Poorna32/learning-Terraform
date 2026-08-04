@@ -1,8 +1,9 @@
-resource "aws_instance" "Main" {
-  ami           = "ami-098d8b074faf7bc92"
-  instance_type = "t3.medium"
-  vpc_security_group_ids = [ "sg-00b26069c926d674a" ]
+resource "aws_instance" "test" {
+  ami           = "ami-0220d79f3f480ecf5"
+  vpc_security_group_ids = [ "sg-095e8d0efbeb2469e" ]
+  instance_type = "t3.micro"
+
   tags = {
-    Name = "Poornachandra"
+    Name = "frontend"
   }
 }
