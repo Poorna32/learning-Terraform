@@ -10,7 +10,7 @@ resource "aws_instance" "test" {
 
 resource "aws_route53_record" "test" {
   zone_id = "Z02595892ZU4VXX7PZ67V"
-  name    = "www.poorna.com"
+  name    = "frontend-dev"
   type    = "A"
   ttl     = 300
   records = [ "18.212.235.11" ]
