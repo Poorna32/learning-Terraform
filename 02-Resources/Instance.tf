@@ -13,5 +13,5 @@ resource "aws_route53_record" "test" {
   name    = "www.poorna.com"
   type    = "A"
   ttl     = 300
-  records = [ 18.212.235.11 ]
+  records = [ "18.212.235.11" ]
 }
