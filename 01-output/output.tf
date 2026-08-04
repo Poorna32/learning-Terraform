@@ -1,3 +1,3 @@
-output "Terrafrom" {
-  value = "Learning Terraform"
+output "test" {
+  value = "Hello world"
 }
