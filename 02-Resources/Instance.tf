@@ -13,7 +13,7 @@ resource "aws_route53_record" "test" {
   name    = "frontend-dev"
   type    = "A"
   ttl     = 300
-  records = [ "18.212.235.11" ]
+  records = [ "98.88.253.62" ]
 }
 
 
