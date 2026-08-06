@@ -52,6 +52,7 @@ output "z" {
 
 #Declaring Empty Variable
 #To acesss this variable we send data through a Files called TFvars
+
 variable "Environment" {}
 
 output "Environment" {
