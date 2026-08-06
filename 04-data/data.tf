@@ -3,5 +3,5 @@ data "aws_security_group" "test" {
 }
 
 output "securitygroup" {
-  value = data.aws_security_group.test.id
+  value = data.aws_security_group.test
 }
