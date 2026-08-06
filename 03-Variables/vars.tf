@@ -1,9 +1,9 @@
 #1)Variable WithOut Value
 #variable "x" {}
 
-output "x" {
-  value = var.x
-}
+#output "x" {
+#value = var.x
+#}
 
 #2)Variable with Value
 variable "x_value" {
