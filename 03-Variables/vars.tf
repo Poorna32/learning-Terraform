@@ -1,5 +1,5 @@
 #1)Variable WithOut Value
-variable "x" {}
+#variable "x" {}
 
 output "x" {
   value = var.x
