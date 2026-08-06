@@ -6,6 +6,6 @@ module "demo-1" {
 
 module "demo-2" {
   source = "./demo"
-  instance_type = "t2.micro"
+  instance_type = "t3.small"
   name = "Backend"
 }

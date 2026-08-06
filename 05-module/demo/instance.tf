@@ -8,7 +8,6 @@ resource "aws_instance" "test" {
   }
 }
 
-
 variable "instance_type" {}
 
 variable "name" {}
