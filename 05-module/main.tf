@@ -1,9 +1,9 @@
 module "demo-1" {
   source = "./demo"
-  name = "demo1"
+  name = "demo-1"
 }
 
 module "demo-2" {
   source = "./demo"
-  name = "demo2"
+  name = "demo-2"
 }
