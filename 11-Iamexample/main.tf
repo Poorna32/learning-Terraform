@@ -30,3 +30,8 @@ resource "aws_iam_role" "frontend" {
     tag-key = var.name
   }
 }
+
+resource "aws_iam_instance_profile" "frontend" {
+  name = "frontend"
+  role = aws_iam_role.frontend
+}
