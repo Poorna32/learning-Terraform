@@ -3,7 +3,6 @@ resource "aws_instance" "test" {
   vpc_security_group_ids = var.security_group
   instance_type = var.instance_type
   iam_instance_profile = aws_iam_instance_profile.frontend.name
-  i
 
   tags = {
     Name = "frontend"
@@ -28,21 +27,6 @@ resource "aws_iam_role" "frontend" {
     ]
   })
 
-
-  inline_policy {
-    name = var.name
-
-    policy = jsonencode({
-      Version = "2012-10-17"
-      Statement = [
-        {
-          Action   = var.policy_list
-          Effect   = "Allow"
-          Resource = "*"
-        },
-      ]
-    })
-  }
 
   tags = {
     tag-key = var.name
