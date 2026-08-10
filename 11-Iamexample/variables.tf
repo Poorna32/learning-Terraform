@@ -13,3 +13,9 @@ variable "instance_type" {
 variable "name" {
   default = "frontend"
 }
+
+variable "policy_list" {
+  default = {
+    policylist = ["ec2:DescribeInstances"]
+  }
+}
