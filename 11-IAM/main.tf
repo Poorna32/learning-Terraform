@@ -44,7 +44,7 @@ resource "aws_iam_role_policy" "frontend" {
 
     Statement = [
       {
-        Action   = var.policy_list
+        Action   = var.policy_list.policylist
         Effect   = "Allow"
         Resource = "*"
       }
