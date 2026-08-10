@@ -2,6 +2,7 @@ resource "aws_instance" "test" {
   ami           = var.ami
   vpc_security_group_ids = var.security_group
   instance_type = var.instance_type
+  iam_instance_profile = aws_iam_instance_profile.frontend
 
   tags = {
     Name = "frontend"
