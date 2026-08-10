@@ -33,5 +33,5 @@ resource "aws_iam_role" "frontend" {
 
 resource "aws_iam_instance_profile" "frontend" {
   name = "frontend"
-  role = aws_iam_role.frontend
+  role = aws_iam_role.frontend.name
 }
